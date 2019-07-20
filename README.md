@@ -6,17 +6,23 @@ Create a superUser account before interacting with User, Account, Model and Admi
 Main Features :
 </h2>
 <ul>
-<li>Blog Page Featured With Backend Dashboard</li>
-  <li>Category Based Post with title,content and image </li>
-  <li>Automatic and Unique Slug Generator for each post</li>
+<li> Full Featured E-Commerce Application Product and Custom Post</li>
+  <li> DetailView of Each Product With ADD/REMOVE Cart Facilities</li>
+    <li> Custom Admin Panel </li>
+  <li> Order Summary with total bill </li>
+  <li> Checkout View with Product List </li>
+    <li> Discount cupon Option for product </li>
+    <li> Payment Option Stripe/Paypal </li>
+  <li> Stripe Api Customization</li>
+  <li>Category Based Product with price,title and image and others attributes </li>
+  <li>Automatic and Unique Slug Generator for each product</li>
    <li>Slug Based URL For SEO Friendly</li>
 <li>User Profile Page with Update Feature</li>
 <li>Registration,Login,Logout Page</li>
 <li>Frondend and Backend Validation</li>
 <li>Classbased Listview, DetailView, CreateView, UpdateView, DeleteView </li>
 <li>After Login, User can update Their Profile Info Like (E-mail , Username and Profile Pictures) </li>
-<li>Number of Posts By a Specific User </li>
-  <li>Number of Posts By a Specific Category  </li>
+
 
 </ul>
 
@@ -26,6 +32,8 @@ Used Technolgies :
 <ul>
 <li>Python</li>
 <li>Django v2.2.3</li>
+<li>Jquery</li>
+<li>Stripe Api</li>
 <li>SQLite3</li>
 <li>HTML</li>
 <li>CSS</li>
@@ -36,15 +44,15 @@ Used Technolgies :
 </ul>
 
 <h2>Installation</h2>
-<h4>Create WebBlog virtual environment & goto the directory.
+<h4>Create djecom virtual environment & goto the directory.
 </h4>
 
 <h4>
 Linux -->
 </h4>
 <div>
-virtualenv -p /usr/bin/python3 dj
-cd dj
+virtualenv -p /usr/bin/python3 djecom
+cd djecom
 </div>
 
 
@@ -53,8 +61,8 @@ cd dj
 Windows -->
 </h4>
 <div>
-virtualenv dj
-cd .\dj\
+virtualenv djecom
+cd .\djecom\
 </div>
 
 
@@ -76,7 +84,7 @@ clone the project in the dj directory.
 </h2>
 
 <div>
-git clone https://github.com/sohanur-it/Django-Application.git
+git clone https://github.com/sohanur-it/E-Comerce-App.git
 </div>
 
 <h2>Install requirements.txt
@@ -109,17 +117,16 @@ Now go to<a href="http://127.0.0.1:8000/"><ul><li> http://127.0.0.1:8000/</li></
    <li>Product with Category Based : </li><br>
 <img src="https://github.com/sohanur-it/E-Comerce-App/blob/master/screenshots/home2.png"><br><br>
   
-     <li>Product with Detail Page: </li><br>
+ <li>Product with Detail Page: </li><br>
 <img src="https://github.com/sohanur-it/E-Comerce-App/blob/master/screenshots/home3.png"><br><br>
 
-    <li>Order Summary Page: </li><br>
+ <li>Order Summary Page: </li><br>
 <img src="https://github.com/sohanur-it/E-Comerce-App/blob/master/screenshots/home4.png"><br><br>
 
-   <li>CheckOut Page: </li><br>
+ <li>CheckOut Page: </li><br>
 <img src="https://github.com/sohanur-it/E-Comerce-App/blob/master/screenshots/home5.png"><br><br>
 
-
-   <li>Billing and Shipping Address: </li><br>
+ <li>Billing and Shipping Address: </li><br>
 <img src="https://github.com/sohanur-it/E-Comerce-App/blob/master/screenshots/home6.png"><br><br>
 
    <li>Payment Page </li><br>
@@ -130,8 +137,6 @@ Now go to<a href="http://127.0.0.1:8000/"><ul><li> http://127.0.0.1:8000/</li></
 
  <li>Customized Admin Panel </li><br>
 <img src="https://github.com/sohanur-it/E-Comerce-App/blob/master/screenshots/home9.png"><br><br>
-
-
   
 </ol>
 
