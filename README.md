@@ -104,11 +104,36 @@ Now go to<a href="http://127.0.0.1:8000/"><ul><li> http://127.0.0.1:8000/</li></
 
 <ol>
   <li>Home Page : </li><br>
-<img src="https://github.com/sohanur-it/Django-Application/blob/master/screenshot/home-dj.png"><br><br>
- <li>Home-Desc Page : </li><br>
-<img src="https://github.com/sohanur-it/Django-Application/blob/master/screenshot/dj-descrip.png"><br><br>
-  
- 
+<img src="https://github.com/sohanur-it/E-Comerce-App/blob/master/screenshots/hom1.png"><br><br>
 
+   <li>Product with Category Based : </li><br>
+<img src="https://github.com/sohanur-it/E-Comerce-App/blob/master/screenshots/home2.png"><br><br>
+  
+     <li>Product with Detail Page: </li><br>
+<img src="https://github.com/sohanur-it/E-Comerce-App/blob/master/screenshots/home3.png"><br><br>
+
+    <li>Order Summary Page: </li><br>
+<img src="https://github.com/sohanur-it/E-Comerce-App/blob/master/screenshots/home4.png"><br><br>
+
+   <li>CheckOut Page: </li><br>
+<img src="https://github.com/sohanur-it/E-Comerce-App/blob/master/screenshots/home5.png"><br><br>
+
+
+   <li>Billing and Shipping Address: </li><br>
+<img src="https://github.com/sohanur-it/E-Comerce-App/blob/master/screenshots/home6.png"><br><br>
+
+   <li>Payment Page </li><br>
+<img src="https://github.com/sohanur-it/E-Comerce-App/blob/master/screenshots/home7.png"><br><br>
+
+  <li>Stripe Dashboard </li><br>
+<img src="https://github.com/sohanur-it/E-Comerce-App/blob/master/screenshots/home8.png"><br><br>
+
+ <li>Customized Admin Panel </li><br>
+<img src="https://github.com/sohanur-it/E-Comerce-App/blob/master/screenshots/home9.png"><br><br>
+
+
+  
 </ol>
->>>>>>> a3da51fe1ec71a1e3fec9387a7865558e8856e72
+
+
+
