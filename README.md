@@ -1,6 +1,4 @@
 # E-Comerce-App
-<<<<<<< HEAD
-=======
 <h4>
 Create a superUser account before interacting with User, Account, Model and Admin Privilages
 </h4>
