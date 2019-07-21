@@ -5,7 +5,7 @@
 <h2>
 Main Features :
 </h2>
-
+        
 <ul>
 
 <li> Full Featured E-Commerce Application Product and Custom Post</li>
@@ -49,54 +49,43 @@ Used Technolgies :
 <h4>Create djecom virtual environment & goto the directory.
 </h4>
 
-
-```linux
-@Linux: 
+<h2>@Linux:</h2>
+```linux 
 virtualenv -p /usr/bin/python3 djecom <br>
 cd djecom
-
 ```
 
-
-
-
+<h2> @Windows : </h2>
 ```
-@Windows :
-
 virtualenv djecom <br>
 cd .\djecom\
 ```
 
+<h2> Activate virtualenv : </h2>
 ```activate
-Activate virtualenv :
 @Linux:
-
 source bin/activate
-
 ```
+<h2> @ For Windows: </h2>
 ```windows
-@Windows:
-
 .\Scripts\activate
 ```
-#clone the project in the dj directory.
+<h2> Clone the project in the dj directory </h2>
 ```clone
 git clone https://github.com/sohanur-it/E-Comerce-App.git
 ```
-#Setup
+<h2> Setup </h2>
 ```move
 mv E-Comerce-App src/ 
 cd src/  
 mv src/  
 mv requirements.txt ../ 
-
-
 ```
-#Install requirements.txt
+<h2>Install requirements.txt </h2>
 ```install
 python -m pip install -r requirement.txt
 ```
-#Now goto src/ directory and create db models.
+<h2> Now goto src/ directory and create db models</h2>
 
 ```
 cd src/ 
@@ -111,7 +100,6 @@ Now go to<a href="http://127.0.0.1:8000/"><ul><li> http://127.0.0.1:8000/</li></
 
 
 <h2>ScreenShots</h2>
-
 <ol>
   <li>Home Page : </li><br>
 <img src="https://github.com/sohanur-it/E-Comerce-App/blob/master/screenshots/hom1.png"><br><br>
