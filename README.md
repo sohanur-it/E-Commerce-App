@@ -50,8 +50,8 @@ Used Technolgies :
 <h4>
 Linux -->
 </h4>
-<div>
-virtualenv -p /usr/bin/python3 djecom
+<div style="background-color:gray">
+virtualenv -p /usr/bin/python3 djecom <br>
 cd djecom
 </div>
 
@@ -61,7 +61,7 @@ cd djecom
 Windows -->
 </h4>
 <div>
-virtualenv djecom
+virtualenv djecom <br>
 cd .\djecom\
 </div>
 
