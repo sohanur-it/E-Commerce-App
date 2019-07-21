@@ -87,6 +87,13 @@ clone the project in the dj directory.
 git clone https://github.com/sohanur-it/E-Comerce-App.git
 </div>
 
+<div>
+mv E-Comerce-App src/
+cd src/
+mv src/
+mv requirements.txt ../
+</div>
+
 <h2>Install requirements.txt
 </h2>
 <div>
