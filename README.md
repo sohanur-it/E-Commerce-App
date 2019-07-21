@@ -63,7 +63,6 @@ cd .\djecom\
 
 <h2> Activate virtualenv : </h2>
 ```activate
-@Linux:
 source bin/activate
 ```
 <h2> @ For Windows: </h2>
@@ -85,8 +84,8 @@ mv requirements.txt ../
 ```install
 python -m pip install -r requirement.txt
 ```
-<h2> Now goto src/ directory and create db models</h2>
 
+<h2> Now goto src/ directory and create db models</h2>
 ```
 cd src/ 
 python manage.py migrate 
@@ -130,7 +129,4 @@ Now go to<a href="http://127.0.0.1:8000/"><ul><li> http://127.0.0.1:8000/</li></
   
 </ol>
 
-</body>
-
-</html>
 
