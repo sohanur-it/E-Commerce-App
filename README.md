@@ -73,7 +73,7 @@ source bin/activate
 .\Scripts\activate
 ```
 
-<h2> Clone the project in the dj directory </h2>
+<h2> Clone the project in the djecom directory </h2>
 
 ```clone
 git clone https://github.com/sohanur-it/E-Comerce-App.git
