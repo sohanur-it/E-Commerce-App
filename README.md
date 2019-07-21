@@ -1,4 +1,4 @@
-# E-Comerce-Application(Django)
+# E-Comerce-Application (Django)
 <h4>
 ##Create a superUser account before interacting with User, Account, Model and Admin Privilages
 </h4>
@@ -15,7 +15,7 @@ Main Features :
         <li>Discount cupon Option for product</li>
         <li>Payment Option Stripe/Paypal</li>
         <li>Stripe Api Customization</li>
-        <li>Category Based Product with price,title and image and others attributes </li>
+        <li>Category Based Product with price, title and image and others attributes </li>
         <li>Automatic and Unique Slug Generator for each product</li>
         <li>Slug Based URL For SEO Friendly</li>
         <li>User Profile Page with Update Feature</li>
@@ -95,7 +95,7 @@ python -m pip install -r requirement.txt
 ```
 
 
-<h4>Warning: In case it show's error install the packages manually / install django first in the system / error (pkg-resources==0.0.0)--Just remove the line form requirement.txt file </h4>
+<h4>Warning: In case it show's error install django first in the system / error (pkg-resources==0.0.0)--Just remove the line from requirement.txt file / install the packages manually /  </h4>
 
 ```install
 pip install django
