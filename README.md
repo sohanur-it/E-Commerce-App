@@ -1,3 +1,12 @@
+<html>
+<head>
+<style>
+  div{
+  background-color:gray
+}
+  </style>
+</head>
+  <body>
 # E-Comerce-App
 <h4>
 Create a superUser account before interacting with User, Account, Model and Admin Privilages
@@ -147,5 +156,7 @@ Now go to<a href="http://127.0.0.1:8000/"><ul><li> http://127.0.0.1:8000/</li></
   
 </ol>
 
+</body>
 
+</html>
 
