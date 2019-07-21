@@ -94,6 +94,14 @@ mv requirements.txt ../
 python -m pip install -r requirement.txt
 ```
 
+
+<h2>Warning: In case it show's error install the packages manually / install django first in the system / error (pkg-resources==0.0.0)--Just remove line form requirement.txt </h2>
+
+```install
+pip install django
+pip install --upgrade -r requirement.txt
+```
+
 <h2> Now goto src/ directory and create db models</h2>
 
 ```
