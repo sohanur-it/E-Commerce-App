@@ -1,15 +1,6 @@
-<html>
-<head>
-<style>
-  div{
-  background-color:gray
-}
-  </style>
-</head>
-  <body>
 # E-Comerce-App
 <h4>
-Create a superUser account before interacting with User, Account, Model and Admin Privilages
+##Create a superUser account before interacting with User, Account, Model and Admin Privilages
 </h4>
 <h2>
 Main Features :
