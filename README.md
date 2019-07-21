@@ -6,9 +6,8 @@
 Main Features :
 </h2>
         
-
-```       
- Full Featured E-Commerce Application Product and Custom Post
+<ol>
+        <li>Full Featured E-Commerce Application Product and Custom Post</li>
  DetailView of Each Product With ADD/REMOVE Cart Facilities
  Custom Admin Panel 
  Order Summary with total bill
@@ -24,7 +23,7 @@ Registration,Login,Logout Page
 Frondend and Backend Validation
 Classbased Listview, DetailView, CreateView, UpdateView, DeleteView 
  After Login, User can update Their Profile Info Like (E-mail , Username and Profile Pictures) 
-```
+        </ol>
 
 
 
