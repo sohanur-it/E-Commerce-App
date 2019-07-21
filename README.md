@@ -6,27 +6,25 @@
 Main Features :
 </h2>
         
-<ol>
+<ul>
         <li>Full Featured E-Commerce Application Product and Custom Post</li>
- DetailView of Each Product With ADD/REMOVE Cart Facilities
- Custom Admin Panel 
- Order Summary with total bill
- Checkout View with Product List
- Discount cupon Option for product
- Payment Option Stripe/Paypal
- Stripe Api Customization
- Category Based Product with price,title and image and others attributes 
- Automatic and Unique Slug Generator for each product
- Slug Based URL For SEO Friendly
-User Profile Page with Update Feature
-Registration,Login,Logout Page
-Frondend and Backend Validation
-Classbased Listview, DetailView, CreateView, UpdateView, DeleteView 
- After Login, User can update Their Profile Info Like (E-mail , Username and Profile Pictures) 
-        </ol>
-
-
-
+        <li>DetailView of Each Product With ADD/REMOVE Cart Facilities</li>
+        <li>Custom Admin Panel </li>
+        <li>Order Summary with total bill</li>
+        <li>Checkout View with Product List</li>
+        <li>Discount cupon Option for product</li>
+        <li>Payment Option Stripe/Paypal</li>
+        <li>Stripe Api Customization</li>
+        <li>Category Based Product with price,title and image and others attributes </li>
+        <li>Automatic and Unique Slug Generator for each product</li>
+        <li>Slug Based URL For SEO Friendly</li>
+        <li>User Profile Page with Update Feature</li>
+        <li>Registration,Login,Logout Page</li>
+        <li>Frondend and Backend Validation</li>
+        <li>Classbased Listview, DetailView, CreateView, UpdateView, DeleteView </li>
+        <li>After Login, User can update Their Profile Info Like (E-mail , Username and Profile Pictures) </li>
+  
+  </ul>
 
 <h2>
 Used Technolgies :
