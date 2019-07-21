@@ -68,59 +68,53 @@ cd .\djecom\
 ```
 
 ```activate
-<h2>Activate virtualenv :</h2>
-<h4>Linux -->
-</h4>
-<div>
+Activate virtualenv :
+@Linux:
+
 source bin/activate
-</div>
+
 ```
 ```windows
-<h4>Windows--></h4>
-<div>
+@Windows:
+
 .\Scripts\activate
-</div>
+
 ```
 ```clone
-<h2>
 clone the project in the dj directory.
-</h2>
 
-<div>
 git clone https://github.com/sohanur-it/E-Comerce-App.git
-</div>
 ```
 
 ```move
-<div>
-mv E-Comerce-App src/ <br>
-cd src/  <br>
-mv src/  <br>
-mv requirements.txt ../ <br>
-</div>
+
+mv E-Comerce-App src/ 
+cd src/  
+mv src/  
+mv requirements.txt ../ 
+
 ```
 ```install
-<h2>Install requirements.txt
-</h2>
-<div>
+Install requirements.txt
+
+
 python -m pip install -r requirement.txt
-</div>
-<h2>
+
+
 Now goto src/ directory and create db models.
-</h2>
 
 
-<div>
-cd src/ <br>
-python manage.py migrate <br>
-</div>
+
+
+cd src/ 
+python manage.py migrate 
 ```
 
 ```runserver
-<h2>Run Server :</h2>
-<div>
+Run Server :
+
 python manage.py runserver
-</div>
+
 Now go to<a href="http://127.0.0.1:8000/"><ul><li> http://127.0.0.1:8000/</li></ul> </a>
 ```
 
