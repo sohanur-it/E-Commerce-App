@@ -78,45 +78,37 @@ source bin/activate
 @Windows:
 
 .\Scripts\activate
-
 ```
+#clone the project in the dj directory.
 ```clone
-clone the project in the dj directory.
-
 git clone https://github.com/sohanur-it/E-Comerce-App.git
 ```
-
+#Setup
 ```move
-
 mv E-Comerce-App src/ 
 cd src/  
 mv src/  
 mv requirements.txt ../ 
 
+
 ```
+#Install requirements.txt
 ```install
-Install requirements.txt
-
-
 python -m pip install -r requirement.txt
+```
+#Now goto src/ directory and create db models.
 
-
-Now goto src/ directory and create db models.
-
-
-
-
+```
 cd src/ 
 python manage.py migrate 
 ```
 
-```runserver
 Run Server :
-
+```runserver
 python manage.py runserver
-
-Now go to<a href="http://127.0.0.1:8000/"><ul><li> http://127.0.0.1:8000/</li></ul> </a>
 ```
+Now go to<a href="http://127.0.0.1:8000/"><ul><li> http://127.0.0.1:8000/</li></ul> </a>
+
 
 <h2>ScreenShots</h2>
 
