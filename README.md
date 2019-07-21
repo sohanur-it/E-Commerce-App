@@ -6,7 +6,7 @@
 Main Features :
 </h2>
 <ul>
-<li> Full Featured E-Commerce Application Product and Custom Post</li>
+<li> ### Full Featured E-Commerce Application Product and Custom Post</li>
   <li> DetailView of Each Product With ADD/REMOVE Cart Facilities</li>
     <li> Custom Admin Panel </li>
   <li> Order Summary with total bill </li>
