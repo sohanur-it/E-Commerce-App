@@ -50,13 +50,13 @@ Used Technolgies :
 </h4>
 
 <h2>@Linux:</h2>
-```linux 
-virtualenv -p /usr/bin/python3 djecom <br>
+```virtual
+virtualenv -p /usr/bin/python3 djecom 
 cd djecom
 ```
 
 <h2> @Windows : </h2>
-```
+```windows
 virtualenv djecom <br>
 cd .\djecom\
 ```
