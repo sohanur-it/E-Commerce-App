@@ -1,4 +1,4 @@
-# E-Comerce-App
+# E-Comerce-Application(Django)
 <h4>
 ##Create a superUser account before interacting with User, Account, Model and Admin Privilages
 </h4>
