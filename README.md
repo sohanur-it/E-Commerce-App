@@ -88,10 +88,10 @@ git clone https://github.com/sohanur-it/E-Comerce-App.git
 </div>
 
 <div>
-mv E-Comerce-App src/
-cd src/
-mv src/
-mv requirements.txt ../
+mv E-Comerce-App src/ <br>
+cd src/  <br>
+mv src/  <br>
+mv requirements.txt ../ <br>
 </div>
 
 <h2>Install requirements.txt
