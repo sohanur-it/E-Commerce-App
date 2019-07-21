@@ -5,8 +5,6 @@
 <h2>
 Main Features :
 </h2>
- > - Test 123
- > - Follow  [testing artifacts](http://2.bp.blogspot.com) (more Unit )
 <ul>
 <li> Full Featured E-Commerce Application Product and Custom Post</li>
   <li> DetailView of Each Product With ADD/REMOVE Cart Facilities</li>
