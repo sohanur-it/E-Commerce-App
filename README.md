@@ -50,51 +50,65 @@ Used Technolgies :
 </h4>
 
 <h2>@Linux:</h2>
+
 ```virtual
 virtualenv -p /usr/bin/python3 djecom 
 cd djecom
 ```
 
 <h2> @Windows : </h2>
+
 ```windows
-virtualenv djecom <br>
+virtualenv djecom
 cd .\djecom\
 ```
 
 <h2> Activate virtualenv : </h2>
+
 ```activate
 source bin/activate
 ```
+
 <h2> @ For Windows: </h2>
+
 ```windows
 .\Scripts\activate
 ```
+
 <h2> Clone the project in the dj directory </h2>
+
 ```clone
 git clone https://github.com/sohanur-it/E-Comerce-App.git
 ```
+
 <h2> Setup </h2>
+
 ```move
 mv E-Comerce-App src/ 
 cd src/  
 mv src/  
 mv requirements.txt ../ 
 ```
+
 <h2>Install requirements.txt </h2>
+
 ```install
 python -m pip install -r requirement.txt
 ```
 
 <h2> Now goto src/ directory and create db models</h2>
+
 ```
 cd src/ 
 python manage.py migrate 
 ```
 
 Run Server :
+
 ```runserver
 python manage.py runserver
 ```
+
 Now go to<a href="http://127.0.0.1:8000/"><ul><li> http://127.0.0.1:8000/</li></ul> </a>
 
 
