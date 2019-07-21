@@ -105,8 +105,8 @@ Now goto src/ directory and create db models.
 
 
 <div>
-cd src/
-python manage.py migrate
+cd src/ <br>
+python manage.py migrate <br>
 </div>
 
 <h2>Run Server :</h2>
