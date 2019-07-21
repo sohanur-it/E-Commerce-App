@@ -7,6 +7,7 @@ Main Features :
 </h2>
 
 <ul>
+
 <li> Full Featured E-Commerce Application Product and Custom Post</li>
   <li> DetailView of Each Product With ADD/REMOVE Cart Facilities</li>
     <li> Custom Admin Panel </li>
@@ -48,38 +49,39 @@ Used Technolgies :
 <h4>Create djecom virtual environment & goto the directory.
 </h4>
 
-<h4>
-Linux -->
-</h4>
-<div style="background-color:gray">
+
+```linux
+@Linux: 
 virtualenv -p /usr/bin/python3 djecom <br>
 cd djecom
-</div>
+
+```
 
 
 
-<h4>
-Windows -->
-</h4>
-<div>
+
+```
+@Windows :
+
 virtualenv djecom <br>
 cd .\djecom\
-</div>
+```
 
-
+```activate
 <h2>Activate virtualenv :</h2>
 <h4>Linux -->
 </h4>
 <div>
 source bin/activate
 </div>
-
-
+```
+```windows
 <h4>Windows--></h4>
 <div>
 .\Scripts\activate
 </div>
-
+```
+```clone
 <h2>
 clone the project in the dj directory.
 </h2>
@@ -87,14 +89,17 @@ clone the project in the dj directory.
 <div>
 git clone https://github.com/sohanur-it/E-Comerce-App.git
 </div>
+```
 
+```move
 <div>
 mv E-Comerce-App src/ <br>
 cd src/  <br>
 mv src/  <br>
 mv requirements.txt ../ <br>
 </div>
-
+```
+```install
 <h2>Install requirements.txt
 </h2>
 <div>
@@ -109,12 +114,15 @@ Now goto src/ directory and create db models.
 cd src/ <br>
 python manage.py migrate <br>
 </div>
+```
 
+```runserver
 <h2>Run Server :</h2>
 <div>
 python manage.py runserver
 </div>
 Now go to<a href="http://127.0.0.1:8000/"><ul><li> http://127.0.0.1:8000/</li></ul> </a>
+```
 
 <h2>ScreenShots</h2>
 
