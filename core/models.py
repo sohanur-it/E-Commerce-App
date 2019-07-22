@@ -75,9 +75,6 @@ class OrderItem(models.Model):
     def __str__(self):
         return f"{self.quantity} of {self.item.title}"
 
-    def __str__(self):
-        return self.user.username
-
     def get_total_item_price(self):
         return self.quantity * self.item.price
 

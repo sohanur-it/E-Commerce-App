@@ -1,0 +1,116 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <main>
+    <div class="container">
+
+    <div class="table-responsive text-nowrap">
+    <h2>Successful Order Summary For {{ request.user }}</h2>
+    <table class="table">
+        <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Total Items </th>
+            <th scope="col">Ordered Date </th>
+            <th scope="col">Total Price</th>
+            <th scope="col">Referene Code</th>
+            <th scope="col"> Request for Refunding </th>
+         
+        </tr>
+        </thead>
+        <tbody>
+        {% for order in orders %}
+        <tr>
+            <th scope="row">{{ forloop.counter }}</th>
+            <td>
+                   
+                    {% for orderitem in order.items.all %}
+
+                     {{ orderitem.quantity }} x {{ orderitem.item }}&nbsp;
+
+                    {% endfor %} 
+
+
+            </td>
+
+
+            <td>
+                {{ order.ordered_date }}
+            </td>
+       
+            <td>{{ order.get_total }}</td>
+            <td>{{ order.ref_code }}</td>
+            <td>
+                {% if order.refund_requested == False  and order.refund_granted == False %}
+                <a href="{% url 'request-refund' order.ref_code %}">
+                <button class="btn btn-primary"> Request </button>
+            </a>
+
+            {% endif %}
+
+               {% if order.refund_requested == True %}
+                <a href="{% url 'profile' %}">
+                <button class="btn btn-danger" onclick="requested()"> Requested </button>
+            </a>
+
+            {% endif %}
+
+              {% if order.refund_requested == False  and order.refund_granted == True %}
+                <a href="{% url 'profile' %}">
+                <button class="btn btn-secondary" onclick="granted()"> Granted </button>
+            </a>
+
+            {% endif %}
+
+
+                </td>
+            
+        
+        </tr>
+        {% empty %}
+        <tr>
+            <td colspan='5'>You have not any successful purchased yet</td>
+        </tr>
+        <tr>
+            <td colspan="5">
+            <a class='btn btn-primary float-right' href='/'>Continue shopping</a>
+            </td>
+        </tr>
+
+        {% endfor %}
+
+<!--         
+        <tr>
+            <td colspan="5">
+            <a class='btn btn-warning float-right ml-2' href='/checkout/'>Proceed to checkout</a>
+            <a class='btn btn-primary float-right' href='/'>Continue shopping</a>
+            </td>
+        </tr>
+  -->
+        </tbody>
+    </table>
+
+    </div>
+
+    </div>
+  </main>
+
+{% endblock content %}
+
+
+
+{% block extra_scripts %}
+
+<script>
+function requested() {
+  alert("Already Requested!");
+}
+function granted(){
+    alert('Request Granted !');
+}
+</script>
+{% endblock extra_scripts %}
+
+
+
+

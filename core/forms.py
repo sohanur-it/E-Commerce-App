@@ -10,7 +10,6 @@ PAYMENT_CHOICES = (
 )
 
 
-
 class CheckoutForm(forms.Form):
     shipping_address = forms.CharField(required=False)
     shipping_address2 = forms.CharField(required=False)
@@ -40,13 +39,10 @@ class CheckoutForm(forms.Form):
         widget=forms.RadioSelect, choices=PAYMENT_CHOICES)
 
 
-
 class PaymentForm(forms.Form):
     stripeToken = forms.CharField(required=False)
     save = forms.BooleanField(required=False)
     use_default = forms.BooleanField(required=False)
-
-
 
 
 class CouponForm(forms.Form):
@@ -61,7 +57,6 @@ class CouponForm(forms.Form):
 class RefundForm(forms.Form):
     ref_code = forms.CharField()
     messages = forms.CharField(widget=forms.Textarea(attrs={
-        'rows':4
+        'rows': 4
     }))
     email = forms.EmailField()
-

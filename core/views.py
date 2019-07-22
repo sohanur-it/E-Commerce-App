@@ -488,7 +488,13 @@ class AddCouponView(View):
 
 class RequestRefundView(View):
     def get(self, *args, **kwargs):
-        form = RefundForm()
+        ref_code = self.kwargs.get('ref_code')
+
+        initial_data = {
+            'ref_code': ref_code
+
+        }
+        form = RefundForm(initial=initial_data)
         context = {
             'form': form
         }
@@ -496,6 +502,7 @@ class RequestRefundView(View):
 
     def post(self, *args, **kwargs):
         form = RefundForm(self.request.POST)
+        ref_code = self.kwargs.get('ref_code')
         if form.is_valid():
             ref_code = form.cleaned_data.get('ref_code')
             message = form.cleaned_data.get('message')
@@ -512,8 +519,22 @@ class RequestRefundView(View):
                 refund.email = email
 
                 messages.info(self.request, "your messages was received")
-                return redirect("request-refund")
+                return redirect("profile")
 
             except ObjectDoesNotExist:
                 messages.info(self.request, "This order does not exists")
-                return redirect("request-refund")
+                return redirect("request-refund", ref_code=ref_code)
+
+
+class ProfileView(View):
+    def get(self, *args, **kwargs):
+
+        orders = Order.objects.filter(
+            user=self.request.user, ordered=True)
+
+        context = {
+            "orders": orders,
+
+
+        }
+        return render(self.request, "profilepage.html", context)

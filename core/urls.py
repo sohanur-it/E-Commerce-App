@@ -12,6 +12,7 @@ from .views import HomeView,\
     AddCouponView,\
     CategoryListView,\
     RequestRefundView,\
+    ProfileView,\
     product
 from django.contrib.auth import views as auth_views
 
@@ -28,7 +29,8 @@ urlpatterns = [
     path('payment/<payment_option>', PaymentMethod.as_view(), name='payment'),
     path('payment/<payment_option>', PaymentMethod.as_view(), name='payment'),
     path('add-coupon/', AddCouponView.as_view(), name='add-coupon'),
-    path('request-refund/', RequestRefundView.as_view(), name='request-refund'),
+    path('request-refund/<str:ref_code>', RequestRefundView.as_view(), name='request-refund'),
+    path('profile/', ProfileView.as_view(), name='profile'),
 
 ]
 
