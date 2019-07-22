@@ -146,6 +146,9 @@ Now go to<a href="http://127.0.0.1:8000/"><ul><li> http://127.0.0.1:8000/</li></
 
  <li>Customized Admin Panel </li><br>
 <img src="https://github.com/sohanur-it/E-Comerce-App/blob/master/screenshots/home9.png"><br><br>
+
+ <li>Profile Page </li><br>
+<img src="https://github.com/sohanur-it/E-Comerce-App/blob/master/screenshots/profile.png"><br><br>
   
 </ol>
 
