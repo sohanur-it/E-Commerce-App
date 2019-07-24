@@ -82,10 +82,8 @@ git clone https://github.com/sohanur-it/E-Comerce-App.git
 <h2> Setup </h2>
 
 ```move
-mv E-Comerce-App src/ 
-cd src/  
-mv src/  
-mv requirements.txt ../ 
+mv E-Comerce-App src/    
+mv src/requirements.txt . 
 ```
 
 <h2>Install requirements.txt </h2>
